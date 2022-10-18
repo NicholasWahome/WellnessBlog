@@ -1,0 +1,63 @@
+.wrapper .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans serif;
+  background-color: cadetblue;
+  background-size: 20px 20px;
+  opacity: 0.9;
+  user-select: none;
+  margin-bottom: 20%;
+}
+.center form {
+  padding: 50px 50px;
+  color: blanchedalmond;
+  font-weight: bolder;
+}
+.center form h1 {
+  text-align: center;
+}
+.center form p.user {
+  margin-top: 20%;
+  font-size: 24px;
+}
+.center form input.userIn {
+  padding: 5px 50px;
+  border: transparent;
+  color: grey;
+}
+.center form p.pass {
+  margin-top: 20%;
+  font-size: 24px;
+}
+.center form input.passIn {
+  padding: 5px 50px;
+  border: transparent;
+  color: grey;
+}
+.center button {
+  padding: 5px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 1;
+  background-color: turquoise;
+  color: blanchedalmond;
+  border-radius: 40px;
+  border-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 33%;
+  margin-bottom: 10%;
+}
+.center button:active,
+.center button:hover {
+  opacity: 0.9;
+  background-color: black;
+}
+.center p.WelMes {
+  font-style: italic;
+  color: whitesmoke;
+  margin-bottom: 10%;
+  text-align: center;
+}

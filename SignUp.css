@@ -1,0 +1,64 @@
+.wrapper .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans serif;
+  background-color: cadetblue;
+  background-size: 20px 20px;
+  opacity: 0.9;
+  user-select: none;
+  margin-bottom: 10%;
+}
+.center form {
+  padding: 50px 50px;
+  color: blanchedalmond;
+  font-weight: bolder;
+}
+.center form h {
+  font-size: 24px;
+  position: center;
+}
+.center form p {
+  margin-top: 5%;
+}
+.center form .place {
+  padding: 5px 100px;
+}
+
+.center form button {
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 1;
+  background-color: turquoise;
+  color: blanchedalmond;
+  border-radius: 40px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-left: 35%;
+  transition: 0.5s;
+}
+.center form button:hover {
+  opacity: 0.9;
+  background-color: black;
+}
+.center form button a:link {
+  text-decoration: none;
+}
+.center form button a:visited {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+.center img {
+  width: 300px;
+  margin-left: 25%;
+  margin-bottom: 4.5%;
+}
+
+.center .check:hover {
+  background-color: grey;
+  opacity: 0.8;
+}

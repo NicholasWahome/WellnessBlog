@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background: url(wellnessblog.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.logo {
+  width: 200px;
+  height: auto;
+  padding: 20px 20px;
+  border-radius: 40px;
+}
+.navbar ul {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  margin-right: 20px;
+  opacity: 0.8;
+}
+.navbar ul li {
+  font-weight: bold;
+  list-style: none;
+  margin: 0 80px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s;
+}
+.navbar ul li a.more {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s;
+  background: crimson;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: black;
+  opacity: 0.9;
+  border-radius: 2px;
+}
+.navbar ul li a.more.active,
+.navbar ul li a.more:hover {
+  background: black;
+  opacity: 0.9;
+  border-radius: 2px;
+}
+.wrapper .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans serif;
+  background-color: cadetblue;
+  background-size: 20px 20px;
+  opacity: 0.9;
+  user-select: none;
+  margin-bottom: 10%;
+}
+.center h1 {
+  color: blanchedalmond;
+  font-size: 70px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+}
+.center img {
+  width: 80px;
+  height: 50px;
+  mix-blend-mode: multiply;
+  background-image: none;
+  float: right;
+}
+.center h2 {
+  color: white;
+  font-size: auto;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  width: 885px;
+}
+.center h3 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  text-align: center;
+}
+.center .buttons {
+  margin: 35px 280px;
+}
+.buttons button {
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 1;
+  background-color: turquoise;
+  color: blanchedalmond;
+  border-radius: 40px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-left: 30%;
+  transition: 0.5s;
+}
+button:hover {
+  opacity: 0.9;
+  background-color: black;
+  /* transition: 0.5s; */
+}
+button a:link {
+  text-decoration: none;
+}
+button a:visited {
+  text-decoration: none;
+  color: blanchedalmond;
+}

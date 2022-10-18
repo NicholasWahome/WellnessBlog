@@ -1,0 +1,22 @@
+.wrapper .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans serif;
+  background-color: cadetblue;
+  background-size: 20px 20px;
+  opacity: 0.9;
+  user-select: none;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  border-width: thick;
+  border-color: orange;
+}
+.center p {
+  font-weight: bold;
+  padding: 20px 20px;
+  margin-left: -5%;
+  color: blanchedalmond;
+  font-size: 20px;
+}
